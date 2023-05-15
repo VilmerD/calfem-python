@@ -79,8 +79,8 @@ Next, we need to set some desired properties on our mesh:
 
 .. code-block:: Python
 
-    mesh.elType = 3          # Degrees of freedom per node.
-    mesh.dofsPerNode = 1     # Factor that changes element sizes.
+    mesh.elType = 3          # Element type
+    mesh.dofsPerNode = 1     # Number of degrees of freedom per node
     mesh.elSizeFactor = 0.15 # Element size Factor
 
 The *eltype* property determines the element used for mesh generation. Elements that can be generated are:
